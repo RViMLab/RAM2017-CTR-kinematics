@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<robot>
+  <section>
+    <name>Manipulation 1</name>
+    <tube>
+      <stiffness>5</stiffness>
+      <curvature>52.2</curvature>
+      <radius>0.00125</radius>
+      <poissonRatio>0.3</poissonRatio>
+      <phi>0.001</phi>
+      <length>0.06647</length>
+    </tube>
+    <tube>
+      <stiffness>5</stiffness>
+      <curvature>52.2</curvature>
+      <radius>0.001</radius>
+      <poissonRatio>0.3</poissonRatio>
+      <phi>0.001</phi>
+      <length>0.06647</length>
+    </tube>
+  </section>
+  <section>
+  <name>Manipulation 2</name>
+    <tube>
+      <stiffness>1</stiffness>
+      <curvature>52.63</curvature>
+      <radius>0.001</radius>
+      <poissonRatio>0.3</poissonRatio>
+      <phi>0.001</phi>
+      <length>0.0667</length>
+    </tube>
+  </section>
+  <entryFrame>
+    <!--
+    <x00>-0.69710</x00> <x01>-0.59750</x01> <x02>-0.39620</x02> <x03>0.079</x03>
+    <x10>-0.69710</x10> <x11> 0.69400</x11> <x12> 0.18010</x12> <x13>0.077</x13>
+    <x20> 0.16730</x20> <x21> 0.40170</x21> <x22>-0.90040</x22> <x23>0.148</x23>
+    <x30> 0.00000</x30> <x31> 0.00000</x31> <x32> 0.00000</x32> <x33>1.000</x33>-->
+
+    <x00>-0.69710</x00> <x01>-0.59750</x01> <x02>-0.39620</x02> <x03>0.079</x03>
+    <x10>-0.69710</x10> <x11> 0.69400</x11> <x12> 0.18010</x12> <x13>0.077</x13>
+    <x20> 0.16730</x20> <x21> 0.40170</x21> <x22>-0.90040</x22> <x23>0.148</x23>
+    <x30> 0.00000</x30> <x31> 0.00000</x31> <x32> 0.00000</x32> <x33>1.000</x33>
+
+    <!--
+    <x00>1.0</x00> <x01>0.0</x10> <x02>0.0</x20> <x03>0.0</x30>
+    <x10>0.0</x01> <x11>1.0</x11> <x12>0.0</x21> <x13>0.0</x31>
+    <x20>0.0</x02> <x21>0.0</x12> <x22>1.0</x22> <x23>0.0</x32>
+    <x30>0.0</x03> <x31>0.0</x13> <x32>0.0</x23> <x33>1.0</x33>-->
+  </entryFrame>
+</robot>
