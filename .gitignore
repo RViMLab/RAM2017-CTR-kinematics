@@ -25,3 +25,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# External libraries
+ctr_external
+
+# Build
+build

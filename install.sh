@@ -46,9 +46,9 @@ if [ -d "eigen" ]; then
    echo -e "${SCG}Eigen exists.${SCN}"
 else
    echo -e "${SCR}Eigen downloading ...${SCN}"
-	wget http://bitbucket.org/eigen/eigen/get/3.3.3.tar.gz
+	wget https://gitlab.com/libeigen/eigen/-/archive/3.3.3/eigen-3.3.3.tar.gz -O 3.3.3.tar.gz
 	tar -xzf 3.3.3.tar.gz
-	mv eigen-eigen* Eigen-3.3.3
+	mv eigen-* Eigen-3.3.3
 	ln -s Eigen-3.3.3 eigen
 fi
 ############ BOOST 1.65.1 ############
@@ -56,7 +56,7 @@ if [ -d "boost" ]; then
    echo -e "${SCG}Boost exists.${SCN}"
 else
    echo -e "${SCR}Boost downloading ...${SCN}"
-   wget https://dl.bintray.com/boostorg/release/1.65.1/source/boost_1_65_1.tar.gz
+   wget https://archives.boost.io/release/1.65.1/source/boost_1_65_1.tar.gz
    tar -xzf boost_1_65_1.tar.gz
    ln -s boost_1_65_1 boost
 fi
